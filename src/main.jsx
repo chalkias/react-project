@@ -1,9 +1,9 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import Navigation from './Navigation.jsx'
+import App from './App.jsx'
 
-createRoot(document.getElementById('header')).render(
+createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Navigation />
+    <App />
   </StrictMode>
 )
