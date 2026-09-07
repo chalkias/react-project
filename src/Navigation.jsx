@@ -1,4 +1,4 @@
-function Navigation() {
+export default function Navigation() {
     return (
         <nav id="navigation">
             <ul>
@@ -9,5 +9,3 @@ function Navigation() {
         </nav>
     );
 }
-
-export default Navigation;
